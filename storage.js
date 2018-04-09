@@ -100,6 +100,8 @@ const essentialOilDiffuser = {
   }
 
   console.log(HomeInventoryDatabase.furniture);
+  console.log(HomeInventoryDatabase.crafts);
+  console.log(HomeInventoryDatabase.electronics)
 
 // Adding each function to database
 
@@ -127,3 +129,4 @@ const loadDatabase = function (localStorageKey) {
 }
 
 saveDatabase(HomeInventoryDatabase, "HomeInventory")
+
